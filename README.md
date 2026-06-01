@@ -80,7 +80,7 @@ src/
 ```bash
 # 1. Clone the repository
 git clone https://github.com/your-username/popx-app.git
-cd popx-app
+cd client-side
 
 # 2. Install dependencies
 npm install
