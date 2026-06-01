@@ -1,6 +1,7 @@
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import MobileFrame from "../components/MobileFrame";
+import logo from "../assets/logo.jpg"
 
 const AccountSettings = () => {
   const { user, logout } = useAuth();
@@ -29,7 +30,7 @@ const AccountSettings = () => {
           {/* Avatar with camera icon */}
           <div className="relative shrink-0">
             <img
-              src={user?.avatar}
+              src={logo}
               alt={user?.fullName}
               className="w-16 h-16 rounded-full object-cover"
             />
